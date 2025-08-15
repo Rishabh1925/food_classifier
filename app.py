@@ -122,6 +122,9 @@ FOOD_CLASSES = [
     "waffles",
 ]
 
+# In your app.py file
+MODEL_URL = "https://drive.google.com/uc?export=download&id=1vmgcyNQ-i_kpTgcnEW2qSJgb8KVS6_TR"
+MODEL_PATH = "food_classifier_model.pth"
 # --- Model Loading ---
 # Re-instantiate the same model architecture used for training
 def load_model():
